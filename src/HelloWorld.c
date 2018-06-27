@@ -11,7 +11,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void hell_world() {
+	printf("This is Hello World Message.");
+}
+
 int main(void) {
-	puts("!!!Hello World branch!!!"); /* prints !!!Hello World!!! */
+	hell_world();
 	return EXIT_SUCCESS;
 }
+
